@@ -23,6 +23,9 @@ public:
   // measurement covariance matrix
   Eigen::MatrixXd R_;
 
+  // added additional to store preprocessed constant value
+  Eigen::VectorXd hx_;
+
   /**
    * Constructor
    */
